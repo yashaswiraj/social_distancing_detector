@@ -6,8 +6,8 @@ Created on Tue Aug 18 20:02:34 2020
 """
 
 
-from social_distancing_configuration import NMS_THRESH
-from social_distancing_configuration import MIN_CONF
+from .social_distancing_configuration import NMS_THRESH
+from .social_distancing_configuration import MIN_CONF
 
 import numpy as np
 import cv2

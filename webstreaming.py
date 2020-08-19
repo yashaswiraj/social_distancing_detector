@@ -76,6 +76,6 @@ def video_feed():
 	return Response(gen(),
 			mimetype='multipart/x-mixed-replace; boundary=frame')
 if __name__== '__main__':
-     app.run(host='0.0.0.0',debug =True)
+     app.run(debug =False)
      vs.release()
      cv2.destroyAllWindows()
