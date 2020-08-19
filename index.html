@@ -1,0 +1,54 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Aug 19 11:04:28 2020
+
+@author: ASUS
+"""
+
+<html lang ="en">
+<head>
+	<meta charset="utf-8">
+	<meta name ="viewport" content = "width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content ="ie=edge">
+	<title>Social Distancing violation</title>
+	<link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel ="stylesheet">
+	<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.css"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link href="{{ url_for('static',filename='css/main.css')}}"rel ="stylesheet">
+	<style >
+	.bg-dark
+	{
+		background-color: #42678!important;
+	}
+	#result
+	{
+		color:#0a1c4ed1;
+	}
+	</style>
+<body>
+	<nav class ="navbar navbar-dark bg-warning">
+		<div class ="container">
+			<a class="navbar-brand" href ="#">Social Distance Violation Detector</a>
+		</div>
+	</nav>
+	<div class = "navbar navbar-dark bg-info">
+		
+		<div class="container">
+			<div class = "row">
+				<div class = "col-sm-8 bd"
+				<h3>Violation Stream Online</h3>
+				<p>Please keep social distance</p>
+					<img src="{{url_for('video_feed')}}"style="height:200px" class ="img-rounded" alt="Gesture">
+				</div>
+				<div class ="col-sw-4">
+					<div>
+				<img src="https://www.burohappold.com/wp-content/uploads/2020/04/social-distancing_gettystock-1024*68">
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+	</div>
+</head>
